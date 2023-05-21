@@ -8,7 +8,7 @@ header:
     <h2> @FIRE 2023 </h2>
   action: # action button is optional
     label: Call for Submissions
-    url: ""
+    url: "https://forms.gle/Rzw1yWoDHqGBXv8N7"
 
 
 sections:
@@ -37,7 +37,7 @@ sections:
         text: Track participants are tasked with developing retrieval systems that return <em>documents</em> in a specified African language when issued a query in English. Retrieval is done at the passage level, with queries formulated as natural language questions and passages relevant to a given query are those with answers to the question. More details on the training and tests sets are provided in the <a href="#datasets">Dataset</a> section.
         icon: bi-tools
       - title: Submission
-        text: Each team is required to submit run files obtained from their retrieval systems in the standard TREC format. Submissions are expected to be 2 to 3 per language, but with a cap of 3. Run files should be submitted via the evaluation platform, and are received in the order of ranking by the team. (To include eval AI link)
+        text: Each team is required to submit run files obtained from their retrieval systems in the standard TREC format. Submissions are expected to be 2 to 3 per language, but with a cap of 3. Participants with more than 3 submissions in any of the languages would have the top 3 selected based on ranking by the team. Run files should be submitted via the evaluation platform. (To include eval AI link)
         icon: bi-send-check
         #url: '#'
       - title: Evaluation
@@ -184,7 +184,7 @@ sections:
     members:
       - name: Mofetoluwa Adeyemi
         text: University of Waterloo
-        image: 
+        image: assets/img/members/Mofe.png
         url: '#'
       - name: Akintunde Oladipo
         text: University of Waterloo

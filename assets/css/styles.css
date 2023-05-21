@@ -157,7 +157,7 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 h6, .h6 {
@@ -7678,7 +7678,7 @@ textarea.form-control-lg {
 }
 
 .mb-2 {
-  margin-bottom: 0.5rem !important;
+  margin-bottom: 0.1rem !important;
 }
 
 .mb-3 {
