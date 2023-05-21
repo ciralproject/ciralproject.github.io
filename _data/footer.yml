@@ -1,0 +1,15 @@
+title: Contact
+links:
+  - text: Email
+    url: 'mailto:ciralproject23@gmail.com'
+    icon: 
+    new_window: True
+  - text: Google Groups
+    url: "https://groups.google.com/g/ciralfire23"
+    new_window: True
+  - text: Twitter
+    url: 
+    new_window: True
+  - text: Github
+    url: 
+    new_window: True

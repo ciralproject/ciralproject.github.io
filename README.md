@@ -1,2 +1,3 @@
-# ciralproject.github.io
-Cross-lingual Information Retrieval for African Languages
+# Ciral Website
+
+ Cross-lingual Information Retrieval for African Languages

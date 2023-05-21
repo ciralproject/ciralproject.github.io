@@ -1,0 +1,19 @@
+<section id="{{ section.section_id }}" class="page-section {{ section.background_style }}">
+  <div class="container px-4 px-lg-2 justify-content">
+    <h2 class="text-dark mt-0 text-center">{{ section.title }}</h2>
+    <hr class="divider border border-2 border-primary ">
+    <br>
+    <!-- <div class="row gx-4 gx-lg-5 justify-content-left">
+      <div class="col-lg-8 col-xl-6 {{ section.text_style | default: 'text-left' }}">
+        <div class="text-dark-50 mb-4 ">{{ section.text1 | markdownify }}</div>
+      </div>
+    </div> -->
+    <div class="col-lg-12 align-text-justify {{ section.text_style | default: 'justify-content-center' }}">
+      <div class="text-black-50 mb-4 ">{{ section.text1 | markdownify }}</div>
+    </div>
+    <div class="col-lg-12 align-text-justify {{ section.text_style | default: 'text-justify' }}">
+      <div class="text-black-50 mb-4 ">{{ section.text2 | markdownify }}</div>
+    </div>
+    {% include actions.html actions=section.actions %}
+  </div>
+</section>

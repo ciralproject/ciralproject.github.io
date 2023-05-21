@@ -1,0 +1,28 @@
+<section class="section-background page-section {{ section.background_style }}" id="{{ section.section_id }}">
+  <div class="container px-4 px-lg-5">
+    <h2 class="text-center mt-0">{{ section.title }}</h2>
+    <p class="text-white-50">{{ section.text }}</p>
+    <hr class="divider border border-primary border-2">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      {% for item in section.items %}
+        <div class="col-lg-{{ colsL }} col-md-{{ colsM }} text-center">
+          <div class="mt-5">
+            <div class="mb-2"><i class="{{ item.icon }} bi text-primary" style="font-size: 42px;"></i></div>
+            <h3 class="h4 mb-2">{{ item.title }}</h3>
+            <br>
+            <div class="text-center  mb-0">
+              {{ item.table | markdownify }}
+              {% if item.url %}
+                <a href="{{ item.url }}"><i class="bi bi-link"></i></a>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+    </div>
+    <!-- <div class="col-lg-12 {{ section.text_style | default: 'justify-content-center' }}">
+      <div class="text-black-50 mb-4 ">{{ section.text1 | markdownify }}</div>
+    </div> -->
+    {% include actions.html actions=section.actions %}
+  </div>
+</section>
