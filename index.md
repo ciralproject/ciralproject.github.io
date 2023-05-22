@@ -37,7 +37,7 @@ sections:
         text: Track participants are tasked with developing retrieval systems that return <em>documents</em> in a specified African language when issued a query in English. Retrieval is done at the passage level, with queries formulated as natural language questions and passages relevant to a given query are those with answers to the question. More details on the training and tests sets are provided in the <a href="#datasets">Dataset</a> section.
         icon: bi-tools
       - title: Submission
-        text: Each team is required to submit run files obtained from their retrieval systems in the standard TREC format. Submissions are expected to be 2 to 3 per language, but with a cap of 3. Participants with more than 3 submissions in any of the languages would have the top 3 selected based on ranking by the team. Run files should be submitted via the evaluation platform. (To include eval AI link)
+        text: Each team is required to submit run files obtained from their retrieval systems in the standard TREC format. Submissions are expected to be 2 to 3 per language, but with a cap of 3. Participants with more than 3 submissions in any of the languages would have the top 3 selected based on ranking by the team. Run files can be submitted using this <a href="https://forms.gle/M1XJi39evHfibPMB9">form</a>
         icon: bi-send-check
         #url: '#'
       - title: Evaluation
@@ -55,7 +55,7 @@ sections:
     text1: >
       For each language, a static collection of passages extracted from news articles is provided. The training set comprises of the static collection, approximately 10 queries per language and some binary relevance judgements for each query. The test set comprises approximately 30 queries per languages. The statistics of the collection is documented in the dataset repo, and can also be found in the table on the right. The table would be updated as the dataset is curated.
 
-      <p>The datasets would be made available in this drive (Add link to drive) according to the release date for each set. Participants can send a mail to <a href="mailto:ciralproject23@gmail.com">ciralproject23@gmail.com</a> to obtain permission to the folder of interest. </p>
+      <p>The datasets would be made available in this <a href="https://drive.google.com/drive/folders/1469AVw3SygXjocqsjJmic322bPHPBVHj?usp=share_link"> Google drive</a>  according to the release date for each set. Participants can send a mail to <a href="mailto:ciralproject23@gmail.com">ciralproject23@gmail.com</a> to obtain permission to the folder of interest. </p>
     table: >
       <table border="1">
       <thead>
@@ -136,18 +136,18 @@ sections:
       table: >
         <table>
         <tr>
-          <th rowspan="2">21st May 2023</th>
+          <th rowspan="2">22nd May 2023</th>
           <th>Track Website opens</th>
         </tr>
         <tr>
           <th>Registration for Track Begins</th>
         </tr>
         <tr>
-          <th>25th May 2023</th>
+          <th>28th May 2023</th>
           <th>Training Data Released</th>
         </tr>
         <tr>
-          <th>10th Jul 2023</th>
+          <th>12th Jul 2023</th>
           <th>Test Data Released</th>
         </tr>
         <tr>
@@ -188,7 +188,7 @@ sections:
         url: '#'
       - name: Akintunde Oladipo
         text: University of Waterloo
-        image: 
+        image: assets/img/members/Tunde.jpeg
         url: '#'
       - name: Xinyu Crystina Zhang
         text: University of Waterloo
