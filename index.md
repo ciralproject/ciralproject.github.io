@@ -143,7 +143,7 @@ sections:
           <th>Registration for Track Begins</th>
         </tr>
         <tr>
-          <th>28th May 2023</th>
+          <th><s>28th May</s>  7th Jun 2023</th>
           <th>Training Data Released</th>
         </tr>
         <tr>
