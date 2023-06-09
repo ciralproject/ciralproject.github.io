@@ -7,8 +7,18 @@
       {% for item in section.items %}
         <div class="col-lg-{{ colsL }} col-md-{{ colsM }} text-center">
           <div class="mt-5">
-            <div class="mb-2"><i class="{{ item.icon }} bi text-primary" style="font-size: 42px;"></i></div>
-            <h3 class="h4 mb-2">{{ item.title }}</h3>
+            {% if item.icon == "bi-calendar-event" %}
+              <div class="mb-2 icon-track-timeline"><i class="{{ item.icon }} bi text-primary" style="font-size: 42px;"></i></div>
+            {% endif %}
+            {% if item.icon == "bi-megaphone" %}
+              <div class="mb-2 announcement"><i class="{{ item.icon }} bi text-primary" style="font-size: 42px;"></i></div>
+            {% endif %}
+            {% if item.title == "Track Timeline" %}
+              <h3 class="h4 mb-2 track-timeline">{{ item.title }}</h3>
+            {% endif %}
+            {% if item.title == "Announcements" %}
+              <h3 class="h4 mb-2 announcement">{{ item.title }}</h3>
+            {% endif %}
             <br>
             <div class="text-center  mb-0">
               {{ item.table | markdownify }}
@@ -18,7 +28,7 @@
             </div>
           </div>
         </div>
-        {% endfor %}
+      {% endfor %}
     </div>
     <!-- <div class="col-lg-12 {{ section.text_style | default: 'justify-content-center' }}">
       <div class="text-black-50 mb-4 ">{{ section.text1 | markdownify }}</div>

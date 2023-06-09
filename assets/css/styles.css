@@ -73,7 +73,7 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #f4623a;
+  --bs-link-color: #9e4d37;
   --bs-link-hover-color: #c34e2e;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
@@ -11014,4 +11014,37 @@ header.masthead h1, header.masthead .h1 {
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+
+/* Custom styles for tables */
+@media (min-width: 992px) {
+  table.announcement {
+    margin-left: 28%;
+  }
+
+  h3.h4.mb-2.announcement {
+    margin-left: 60%;
+  }
+
+  .mb-2.announcement {
+    margin-left: 60%;
+  }
+
+  table.track-timeline {
+    margin-left: -20%;
+  }
+
+  h3.h4.mb-2.track-timeline{
+    margin-right: 20%;
+  }
+  .mb-2.icon-track-timeline {
+    margin-right: 20%;
+  }
+ 
+}
+
+thead, tbody, tfoot, tr, th.announcement-list {
+  border-top: none !important;
+  border-bottom: none !important;
+  text-align: left;
 }

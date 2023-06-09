@@ -134,7 +134,7 @@ sections:
     - title: Track Timeline
       icon: bi-calendar-event
       table: >
-        <table>
+        <table class="track-timeline">
         <tr>
           <th rowspan="2">22nd May 2023</th>
           <th>Track Website opens</th>
@@ -174,7 +174,14 @@ sections:
     - title: Announcements
       icon: bi-megaphone
       table: >
-        Coming soon...
+        <table class="announcement">
+        <tr>
+          <th class="announcement-list">Training data released for Hausa, Yoruba and Swahili <a href="https://drive.google.com/drive/folders/1gPgKkFb-sXQCHIJrF88r2AgiH14xRxPD?usp=sharing">here</a></th>
+        </tr>
+        <tr>
+          <th class="announcement-list">Corpora available <a href="https://drive.google.com/drive/folders/1KNMF08LrdnW-LA3_gZbj9-w_qWE9nfU6?usp=sharing">here</a></th>
+        </tr>
+        </table>
 
 
   - type: organizers.html
