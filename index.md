@@ -176,10 +176,10 @@ sections:
       table: >
         <table class="announcement">
         <tr>
-          <th class="announcement-list">Training data released for Hausa and Yoruba <a href="https://drive.google.com/drive/folders/1469AVw3SygXjocqsjJmic322bPHPBVHj?usp=share_link">here</a></th>
+          <th class="announcement-list">Training data released for Hausa and Yoruba <a href="https://huggingface.co/datasets/CIRAL/ciral">here</a></th>
         </tr>
         <tr>
-          <th class="announcement-list">Corpora available <a href="https://drive.google.com/drive/folders/1469AVw3SygXjocqsjJmic322bPHPBVHj?usp=share_link">here</a></th>
+          <th class="announcement-list">Corpora available <a href="https://huggingface.co/datasets/CIRAL/ciral-corpus">here</a></th>
         </tr>
         </table>
 
