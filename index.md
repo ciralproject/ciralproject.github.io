@@ -55,7 +55,7 @@ sections:
     text1: >
       For each language, a static collection of passages extracted from news articles is provided. The training set comprises of the static collection, approximately 10 queries per language and some binary relevance judgements for each query. The test set comprises approximately 30 queries per languages. The statistics of the collection is documented in the dataset repo, and can also be found in the table on the right. The table would be updated as the dataset is curated.
 
-      <p>The datasets would be made available in this <a href="https://drive.google.com/drive/folders/1469AVw3SygXjocqsjJmic322bPHPBVHj?usp=share_link"> Google drive</a>  according to the release date for each set. Participants can send a mail to <a href="mailto:ciralproject23@gmail.com">ciralproject23@gmail.com</a> to obtain permission to the folder of interest. </p>
+      <p>The datasets would be made available in respective <a href="https://huggingface.co/"> Hugging Face :hugging_face: repos</a>  according to the release date for each set. Participants can request for access to the training and test sets.</p>
     table: >
       <table border="1">
       <thead>
