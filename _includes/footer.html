@@ -14,6 +14,11 @@
           <!-- <a href="{{ link.url }}" {% assign new_window_is_not_empty = link.new_window | is_not_empty %}
           {% if new_window_is_not_empty %}target="_blank" rel="noopener"
           {% endif %}>{{ link.text }}</a> --> 
+      <div class="col-lg-8 col-xl-6">
+        {% for logo in site.data.footer.logos %}
+          <img class="text-primary mb-3" width="45%" src="{{ logo.image }}" alt="{{ logo.text }}">
+        {% endfor %}
+      </div>
     </div>
   </div>
 </footer>

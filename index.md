@@ -201,9 +201,17 @@ sections:
         text: University of Waterloo
         image: assets/img/members/Crystina.png
         url: '#'
+      - name: David Alfonso-Hermelo
+        text: Huawei Noah's Ark Lab
+        image: assets/img/members/David.png
+        url: '#'
       - name: Jimmy Lin
         text: University of Waterloo
         image: assets/img/members/Jimmy.png
+        url: '#'
+      - name: Mehdi Rezagholizadeh
+        text: Huawei Noah's Ark Lab
+        image: assets/img/members/Mehdi.png
         url: '#'
 
   # - type: contact.html

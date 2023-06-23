@@ -13,3 +13,8 @@ links:
   - text: Github
     url: "https://github.com/ciralproject/ciral"
     new_window: True
+logos:
+  - text: Huawei
+    image: assets/img/logos/huawei.png
+  - text: UWaterloo
+    image: assets/img/logos/uw.png
