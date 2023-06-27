@@ -176,6 +176,9 @@ sections:
       table: >
         <table class="announcement">
         <tr>
+          <th class="announcement-list">Updated version of corpora available in Hugging Face <a href="https://huggingface.co/datasets/CIRAL/ciral-corpus">repo</a></th>
+        </tr>
+        <tr>
           <th class="announcement-list">Training data released for Hausa and Yoruba <a href="https://huggingface.co/datasets/CIRAL/ciral">here</a></th>
         </tr>
         <tr>
