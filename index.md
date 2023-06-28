@@ -41,7 +41,7 @@ sections:
         icon: bi-send-check
         #url: '#'
       - title: Evaluation
-        text: Evaluation is done by creating pools for each query and manually judging for the binary relevance of retrieved passages (pooling depth is <em>k = 50</em>). Using the provided judgements, the submitted run files are evaluated with standard retrieval metrics such as MAP to account for precision and recall. We also evaluate for early precision using nDCG@10 and P@10.
+        text: Evaluation is done by creating pools for each query and manually judging for the binary relevance of retrieved passages (pooling depth is <em>k = 20</em>). Using the provided judgements, the submitted run files are evaluated with standard retrieval metrics such as MAP to account for precision and recall. We also evaluate for early precision using nDCG@10 and P@10.
         icon: bi-graph-up
         #url: '#'
       - title: Working Notes
@@ -68,25 +68,25 @@ sections:
         <tr>
         <td><b>Hausa (hau)</b></td>
         <td>10</td>
-        <td>30</td>
+        <td>40</td>
         <td>715,355</td>
         </tr>
         <tr>
         <td><b>Somali (som)</b></td>
         <td>10</td>
-        <td>30</td>
+        <td>40</td>
         <td>1,015,567</td>
         </tr>
         <tr>
         <td><b>Swahili (swa)</b></td>
         <td>10</td>
-        <td>30</td>
+        <td>40</td>
         <td>981,658</td>
         </tr>
         <tr>
         <td><b>Yoruba (yor)</b></td>
-        <td>8</td>
-        <td>27</td>
+        <td>10</td>
+        <td>40</td>
         <td>82,095</td>
         </tr>
       </tbody>
