@@ -68,25 +68,25 @@ sections:
         <tr>
         <td><b>Hausa (hau)</b></td>
         <td>10</td>
-        <td>TBD</td>
+        <td>TBA</td>
         <td>715,355</td>
         </tr>
         <tr>
         <td><b>Somali (som)</b></td>
         <td>10</td>
-        <td>TBD</td>
+        <td>TBA</td>
         <td>1,015,567</td>
         </tr>
         <tr>
         <td><b>Swahili (swa)</b></td>
         <td>10</td>
-        <td>TBD</td>
+        <td>TBA</td>
         <td>981,658</td>
         </tr>
         <tr>
         <td><b>Yoruba (yor)</b></td>
         <td>10</td>
-        <td>TBD</td>
+        <td>TBA</td>
         <td>82,095</td>
         </tr>
       </tbody>
