@@ -45,7 +45,7 @@ sections:
         icon: bi-graph-up
         #url: '#'
       - title: Working Notes
-        text:  Each team is be required to submit a working note detailing their proposed retrieval system and approach to the task. The required format for the working note is the ACM SIG’s template, with a maximum of 5 pages. Submissions would be made to the track’s email at <a href="mailto:ciralproject23@gmail.com">ciralproject23@gmail.com</a>.
+        text:  Each team is required to submit a working note detailing their proposed retrieval system and approach to the task. The required format for the working note is the ACM SIG’s template, with a maximum of 5 pages. Submissions would be made to the track’s email at <a href="mailto:ciralproject23@gmail.com">ciralproject23@gmail.com</a>.
         icon: bi-file-earmark-pdf
 
   - type: datasets.html
@@ -55,7 +55,7 @@ sections:
     text1: >
       For each language, a static collection of passages extracted from news articles is provided. The training set comprises of the static collection, approximately 10 queries per language and some binary relevance judgements for each query. The test set comprises approximately 30 queries per languages. The statistics of the collection is documented in the dataset repo, and can also be found in the table on the right. The table would be updated as the dataset is curated.
 
-      <p>The datasets would be made available in respective <a href="https://huggingface.co/"> Hugging Face :hugging_face: repos</a>  according to the release date for each set. Participants can request for access to the training and test sets.</p>
+      <p>The datasets would be made available in respective <a href="https://huggingface.co/"> Hugging Face repos</a>  according to the release date for each set. Participants can request for access to the training and test sets.</p>
     table: >
       <table border="1">
       <thead>
