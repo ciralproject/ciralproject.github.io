@@ -147,27 +147,27 @@ sections:
           <th>Training Data Released</th>
         </tr>
         <tr>
-          <th>12th Jul 2023</th>
+          <th>1st Aug 2023</th>
           <th>Test Data Released</th>
         </tr>
         <tr>
-          <th>1st Aug 2023</th>
+          <th>30th Aug 2023</th>
           <th>Run Submission Deadline</th>
         </tr>
         <tr>
-          <th>15th Aug 2023</th>
+          <th>10th Sep 2023</th>
           <th>Declaration of Results</th>
         </tr>
         <tr>
-          <th>15th Sep 2023</th>
+          <th>1st Oct 2023</th>
           <th>Working Note Submission</th>
         </tr>
         <tr>
-          <th>5th Oct 2023</th>
+          <th>20th Oct 2023</th>
           <th>Review Notifications</th>
         </tr>
         <tr>
-          <th>15th Oct 2023</th>
+          <th>1st Nov 2023</th>
           <th>Final Version of Working Note</th>
         </tr>
         </table>
