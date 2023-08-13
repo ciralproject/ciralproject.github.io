@@ -37,15 +37,15 @@ sections:
         text: Track participants are tasked with developing retrieval systems that return <em>documents</em> in a specified African language when issued a query in English. Retrieval is done at the passage level, with queries formulated as natural language questions and passages relevant to a given query are those with answers to the question. More details on the training and tests sets are provided in the <a href="#datasets">Dataset</a> section.
         icon: bi-tools
       - title: Submission
-        text: Each team is required to submit run files obtained from their retrieval systems in the standard TREC format. Submissions are expected to be 2 to 3 per language, but with a cap of 3. Participants with more than 3 submissions in any of the languages would have the top 3 selected based on ranking by the team. Run files can be submitted using this <a href="https://forms.gle/M1XJi39evHfibPMB9">form</a>
+        text: Each team is required to submit run files obtained from their retrieval systems in the 6 column standard TREC format. Submissions are expected to be 2 to 3 per language, but with a cap of 3. Participants with more than 3 submissions in any of the languages would have the top 3 selected based on ranking by the team. Run files can be submitted using this <a href="https://forms.gle/M1XJi39evHfibPMB9">form</a>
         icon: bi-send-check
         #url: '#'
       - title: Evaluation
-        text: Evaluation is done by creating pools for each query and manually judging for the binary relevance of retrieved passages (pooling depth is <em>k = 20</em>). Using the provided judgements, the submitted run files are evaluated with standard retrieval metrics such as MAP to account for precision and recall. We also evaluate for early precision using nDCG@10 and P@10.
+        text: Evaluation is done by creating pools for each query and manually judging for the binary relevance of retrieved passages (pooling depth is <em>k = 20</em>). Using the provided judgements, the submitted run files are evaluated with the following standard retrieval metrics - Recall@100 and nDCG@20.
         icon: bi-graph-up
         #url: '#'
       - title: Working Notes
-        text:  Each team is required to submit a working note detailing their proposed retrieval system and approach to the task. The required format for the working note is the ACM SIG’s template, with a maximum of 5 pages. Submissions would be made to the track’s email at <a href="mailto:ciralproject23@gmail.com">ciralproject23@gmail.com</a>.
+        text:  Each team is required to submit a working note detailing their proposed retrieval system and approach to the task. The required format for the working note is the <b>Single Coulmn CEUR format</b>, with a minimum of 5 pages. Submissions would be made to the track’s email at <a href="mailto:ciralproject23@gmail.com">ciralproject23@gmail.com</a>.
         icon: bi-file-earmark-pdf
 
   - type: datasets.html
@@ -53,9 +53,9 @@ sections:
     #background_style: bg-info
     title: DATASET
     text1: >
-      For each language, a static collection of passages extracted from news articles is provided. The training set comprises of the static collection, approximately 10 queries per language and some binary relevance judgements for each query. The test set comprises approximately 30 queries per languages. The statistics of the collection is documented in the dataset repo, and can also be found in the table on the right. The table would be updated as the dataset is curated.
+      For each language, a static collection of passages extracted from news articles is provided. The training set comprises of the static collection, approximately 10 queries per language and some binary relevance judgements for each query. <b>The queries and qrels in the train set serve as samples to help analyze relevance, and explore approaches while using the qrels for evaluation.</b> The statistics of the collection is documented in the dataset repo, and can also be found in the table on the right.
 
-      <p>The datasets would be made available in respective <a href="https://huggingface.co/"> Hugging Face repos</a>  according to the release date for each set. Participants can request for access to the training and test sets.</p>
+      <p>The datasets would be made available in respective Hugging Face repos (<a href="https://huggingface.co/datasets/CIRAL/ciral-corpus">Corpus</a>, <a href="https://huggingface.co/datasets/CIRAL/ciral/tree/main">Queries and Jugdements</a>)  according to the release date for each set. Participants can request for access to the training and test sets.</p>
     table: >
       <table border="1">
       <thead>
@@ -136,38 +136,38 @@ sections:
       table: >
         <table class="track-timeline">
         <tr>
-          <th rowspan="2">22nd May 2023</th>
+          <th rowspan="2"><s>22nd May 2023</s></th>
           <th>Track Website opens</th>
         </tr>
         <tr>
           <th>Registration for Track Begins</th>
         </tr>
         <tr>
-          <th><s>28th May</s>  7th Jun 2023</th>
+          <th><s>7th Jun 2023</s></th>
           <th>Training Data Released</th>
         </tr>
         <tr>
-          <th>1st Aug 2023</th>
+          <th><s>1st Aug</s> 21st Aug 2023</th>
           <th>Test Data Released</th>
         </tr>
         <tr>
-          <th>30th Aug 2023</th>
+          <th><s>30th Aug</s> 10th Sep 2023</th>
           <th>Run Submission Deadline</th>
         </tr>
         <tr>
-          <th>10th Sep 2023</th>
+          <th><s>10th Sep</s> 22nd Sep 2023</th>
           <th>Declaration of Results</th>
         </tr>
         <tr>
-          <th>1st Oct 2023</th>
+          <th>2nd Oct 2023</th>
           <th>Working Note Submission</th>
         </tr>
         <tr>
-          <th>20th Oct 2023</th>
+          <th>8th Oct 2023</th>
           <th>Review Notifications</th>
         </tr>
         <tr>
-          <th>1st Nov 2023</th>
+          <th>15th Oct 2023</th>
           <th>Final Version of Working Note</th>
         </tr>
         </table>
@@ -176,13 +176,19 @@ sections:
       table: >
         <table class="announcement">
         <tr>
-          <th class="announcement-list">Updated version of corpora available in Hugging Face <a href="https://huggingface.co/datasets/CIRAL/ciral-corpus">repo</a></th>
+          <th class="announcement-list">Documentation: Baselines, <a href="https://github.com/ciralproject/ciral/blob/main/Guidelines/README.md">Starting with IR/CIRAL</a></th>
         </tr>
         <tr>
-          <th class="announcement-list">Training data released for Hausa and Yoruba <a href="https://huggingface.co/datasets/CIRAL/ciral">here</a></th>
+          <th class="announcement-list">Train queries and qrels released for Swahili and Somali <a href="https://huggingface.co/datasets/CIRAL/ciral/tree/main">here</a></th>
         </tr>
         <tr>
-          <th class="announcement-list">Corpora available <a href="https://huggingface.co/datasets/CIRAL/ciral-corpus">here</a></th>
+          <th class="announcement-list" style="color:#495057">Updated version of corpora available in Hugging Face <a href="https://huggingface.co/datasets/CIRAL/ciral-corpus">repo</a></th>
+        </tr>
+        <tr>
+          <th class="announcement-list" style="color:#495057">Training data released for Hausa and Yoruba <a href="https://huggingface.co/datasets/CIRAL/ciral">here</a></th>
+        </tr>
+        <tr>
+          <th class="announcement-list" style="color:#495057">Corpora available <a href="https://huggingface.co/datasets/CIRAL/ciral-corpus">here</a></th>
         </tr>
         </table>
 
@@ -215,6 +221,10 @@ sections:
       - name: Mehdi Rezagholizadeh
         text: Huawei Noah's Ark Lab
         image: assets/img/members/Mehdi.png
+        url: '#'
+      - name: Boxing Chen
+        text: Huawei Noah's Ark Lab
+        image: assets/img/members/boxing_chen2.png
         url: '#'
 
   # - type: contact.html
