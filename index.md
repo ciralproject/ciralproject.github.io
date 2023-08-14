@@ -176,7 +176,10 @@ sections:
       table: >
         <table class="announcement">
         <tr>
-          <th class="announcement-list">Documentation: Baselines, <a href="https://github.com/ciralproject/ciral/blob/main/Guidelines/README.md">Starting with IR/CIRAL</a></th>
+          <th class="announcement-list">Check out baselines <a href="https://github.com/ciralproject/ciral#-baseline-and-evaluation">here</a></th>
+        </tr>
+        <tr>
+          <th class="announcement-list">Just starting out with IR/CIRAL <a href="https://github.com/ciralproject/ciral/blob/main/Guidelines/README.md">Quick Start</a>, <a href="https://github.com/ciralproject/ciral">Documentation</a></th>
         </tr>
         <tr>
           <th class="announcement-list">Train queries and qrels released for Swahili and Somali <a href="https://huggingface.co/datasets/CIRAL/ciral/tree/main">here</a></th>
