@@ -37,7 +37,7 @@ sections:
         text: Track participants are tasked with developing retrieval systems that return <em>documents</em> in a specified African language when issued a query in English. Retrieval is done at the passage level, with queries formulated as natural language questions and passages relevant to a given query are those with answers to the question. More details on the training and tests sets are provided in the <a href="#datasets">Dataset</a> section.
         icon: bi-tools
       - title: Submission
-        text: Each team is required to submit run files obtained from their retrieval systems in the 6 column standard TREC format. Submissions would be recieved according to the ranking by the team and participating teams are encouraged to make a minimum of 2 submissions for each of the languages. Up to 1000 passages per query can be submitted, results with more than 1000 would be truncated. Run files can be submitted using this <a href="https://forms.gle/M1XJi39evHfibPMB9">form</a>
+        text: Each team is required to submit run files obtained from their retrieval systems in the 6 column standard TREC format. Submissions would be recieved according to the ranking by the team and participating teams are encouraged to make a minimum of 2 submissions for each of the languages. At least the top 3 ranked submissions from each team would be included in the pools. Up to 1000 passages can be retreived per query, results with more than 1000 would be truncated. Run files can be submitted using this <a href="https://forms.gle/M1XJi39evHfibPMB9">form</a>
         icon: bi-send-check
         #url: '#'
       - title: Evaluation
@@ -68,25 +68,25 @@ sections:
         <tr>
         <td><b>Hausa (hau)</b></td>
         <td>10</td>
-        <td>TBA</td>
+        <td>85</td>
         <td>715,355</td>
         </tr>
         <tr>
         <td><b>Somali (som)</b></td>
         <td>10</td>
-        <td>TBA</td>
+        <td>100</td>
         <td>1,015,567</td>
         </tr>
         <tr>
         <td><b>Swahili (swa)</b></td>
         <td>10</td>
-        <td>TBA</td>
+        <td>85</td>
         <td>981,658</td>
         </tr>
         <tr>
         <td><b>Yoruba (yor)</b></td>
         <td>10</td>
-        <td>TBA</td>
+        <td>100</td>
         <td>82,095</td>
         </tr>
       </tbody>
@@ -175,6 +175,9 @@ sections:
       icon: bi-megaphone
       table: >
         <table class="announcement">
+        <tr>
+          <th class="announcement-list">Test queries out now: <a href="https://huggingface.co/datasets/CIRAL/ciral/tree/main">Dataset Repo</a></th>
+        </tr>
         <tr>
           <th class="announcement-list">Check out baselines <a href="https://github.com/ciralproject/ciral#-baselines-and-evaluation">here</a></th>
         </tr>
