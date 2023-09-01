@@ -198,6 +198,42 @@ sections:
         </tr>
         </table>
 
+  - type: author-guidelines.html
+    section_id: author-guides
+    background_style: bg-primary
+    title: AUTHOR GUIDELINES
+    text1: >
+      All FIRE 2023 track working notes are submitted centrally at <a href="https://cmt3.research.microsoft.com/FIRE2023">https://cmt3.research.microsoft.com/FIRE2023</a>. The following guidelines have been provided to help with submission.
+
+      <ul>
+        <li>
+        Each team can submit only ONE working note which will be published with <a href="https://ceur-ws.org/">CEUR</a>. Working notes should follow the single column CEUR format: 
+          <ul>
+            <li><a href="https://www.overleaf.com/read/gwhxnqcghhdt">Overleaf template</a></li>
+            <li><a href="assets/CEURART.zip">Word and Latex templates</a></li>
+          </ul> 
+        </li>
+        <li>
+        Along with working notes, each group also has to submit a copyright agreement form. There are two types of forms, depending on the use of third- party data or resources:
+          <ul>
+            <li><a href="assets/ceur-author-agreement-ccby-ntp.pdf">Copyright-ntp</a>: No use of third-party data/resource.</li>
+            <li><a href="assets/ceur-author-agreement-ccby-tp.pdf">Copyright-tp</a>: Use of third-party data/resource.</li>
+          </ul>
+        </li>
+        <li>
+          We encourage a minimum of 5 pages for working notes. Working notes with less than 5 pages are classified as extended abstracts at CEUR.
+        </li>
+      </ul>
+
+    text2: >
+      Sanity checks on results, plagiarism and grammatical errors are also important. Other common issues to avoid are listed below.
+
+      <ul>
+        <li>Inclusion of names of teams and tracks in titles of working notes is highly discouraged. For instance titles like "Avengers@CIRAL: Dense Passage Retrieval" should rather be written as "Dense Passage Retrieval"</li>
+        <li>Author names should not have any prefixes like Dr., Prof., etc</li>
+        <li>Copyright information within the footer of the first page should be "Forum for Information Retrieval Evaluation, December 9-13, 2022, India" and should not be changed to include track names or any other details/modifications.</li>
+      </ul>
+
 
   - type: organizers.html
     section_id: organizers
