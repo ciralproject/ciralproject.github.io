@@ -45,7 +45,7 @@ sections:
         icon: bi-graph-up
         #url: '#'
       - title: Working Notes
-        text:  Each team is required to submit a working note detailing their proposed retrieval system and approach to the task. The required format for the working note is the <b>Single Coulmn CEUR format</b>, with a minimum of 5 pages. Submissions would be made to the track’s email at <a href="mailto:ciralproject23@gmail.com">ciralproject23@gmail.com</a>.
+        text:  Each team is required to submit a working note detailing their proposed retrieval system and approach to the task. The required format for the working note is the <b>Single Coulmn CEUR format</b>, with a minimum of 5 pages. More information regarding working notes and copyright agreements is provided in the Author Guides section of this page.
         icon: bi-file-earmark-pdf
 
   - type: datasets.html
