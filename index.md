@@ -147,24 +147,20 @@ sections:
           <th>Training Data Released</th>
         </tr>
         <tr>
-          <th><s>1st Aug</s> 21st Aug 2023</th>
+          <th><s>21st Aug 2023</s></th>
           <th>Test Data Released</th>
         </tr>
         <tr>
-          <th><s>30th Aug</s> 10th Sep 2023</th>
+          <th><s>10th Sep 2023</s></th>
           <th>Run Submission Deadline</th>
         </tr>
         <tr>
-          <th><s>10th Sep</s> 22nd Sep 2023</th>
+          <th><s>22nd Sep</s> 26th Sep 2023</th>
           <th>Declaration of Results</th>
         </tr>
         <tr>
-          <th>2nd Oct 2023</th>
-          <th>Working Note Submission</th>
-        </tr>
-        <tr>
           <th>8th Oct 2023</th>
-          <th>Review Notifications</th>
+          <th>Working Note Submission</th>
         </tr>
         <tr>
           <th>15th Oct 2023</th>
