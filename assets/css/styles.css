@@ -10858,7 +10858,7 @@ body {
 }
 
 .page-section {
-  padding: 4rem 0;
+  padding: 2rem 0;
 }
 
 .text-white-75 {
@@ -11048,3 +11048,36 @@ thead, tbody, tfoot, tr, th.announcement-list {
   border-bottom: none !important;
   text-align: left;
 }
+
+.leadTable {
+  width: 90%;
+  max-width: 90%;
+  margin-bottom: 20px
+}
+
+.leadTable>tbody>tr>td,.leadTable>tbody>tr>th,.leadTable>tfoot>tr>td,.leadTable>tfoot>tr>th,.leadTable>thead>tr>td,.leadTable>thead>tr>th {
+  padding: 8px;
+  line-height: 1.7;
+  vertical-align: top;
+  border-top: 0px solid #ddd;
+  font-size: 15px;
+  text-align: left;
+  background-color: transparent;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.leadTable>thead>tr>th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #ddd
+}
+
+.leadTable .leadTable {
+  background-color: #fff
+}
+
+.scrollable {
+  height: 500px; /* or any value */
+  overflow-y: auto;
+}
+
+/* leadTable.myFormat tr td { font-size: 13px; } */
