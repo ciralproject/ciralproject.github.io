@@ -155,7 +155,7 @@ sections:
           <th>Run Submission Deadline</th>
         </tr>
         <tr>
-          <th><s>22nd Sep</s> 26th Sep 2023</th>
+          <th><s>26th Sep 2023</s></th>
           <th>Declaration of Results</th>
         </tr>
         <tr>
@@ -172,7 +172,7 @@ sections:
       table: >
         <table class="announcement">
         <tr>
-          <th class="announcement-list">Results are now available on the <a href="./leaderboard">leaderboard</a>!</th>
+          <th class="announcement-list">Run results are ready and are available on the <a href="./leaderboard">leaderboard</a>!</th>
         </tr>
         <tr>
           <th class="announcement-list">Test queries out now: <a href="https://huggingface.co/datasets/CIRAL/ciral/tree/main">Dataset Repo</a></th>
