@@ -44,9 +44,9 @@ sections:
         text: Evaluation is done by creating pools for each query and manually judging for the binary relevance of retrieved passages (pooling depth is <em>k = 20</em>). Using the provided judgements, the submitted run files are evaluated with the following standard retrieval metrics - Recall@100 and nDCG@20.
         icon: bi-graph-up
         #url: '#'
-      - title: Working Notes
-        text:  Each team is required to submit a working note detailing their proposed retrieval system and approach to the task. The required format for the working note is the <b>Single Coulmn CEUR format</b>, with a minimum of 5 pages. More information regarding working notes and copyright agreements is provided in the Author Guides section of this page.
-        icon: bi-file-earmark-pdf
+      # - title: Working Notes
+      #   text:  Each team is required to submit a working note detailing their proposed retrieval system and approach to the task. The required format for the working note is the <b>Single Coulmn CEUR format</b>, with a minimum of 5 pages. More information regarding working notes and copyright agreements is provided in the Author Guides section of this page.
+      #   icon: bi-file-earmark-pdf
 
   - type: datasets.html
     section_id: datasets
@@ -171,6 +171,9 @@ sections:
       icon: bi-megaphone
       table: >
         <table class="announcement">
+        <tr>
+          <th class="announcement-list">Results are now available on the <a href="./leaderboard">leaderboard</a>!</th>
+        </tr>
         <tr>
           <th class="announcement-list">Test queries out now: <a href="https://huggingface.co/datasets/CIRAL/ciral/tree/main">Dataset Repo</a></th>
         </tr>
