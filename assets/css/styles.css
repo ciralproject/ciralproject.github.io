@@ -11066,6 +11066,10 @@ thead, tbody, tfoot, tr, th.announcement-list {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.leadTable>tbody>tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
 .leadTable>thead>tr>th {
   vertical-align: bottom;
   border-bottom: 2px solid #ddd
