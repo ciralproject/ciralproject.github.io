@@ -159,11 +159,11 @@ sections:
           <th>Declaration of Results</th>
         </tr>
         <tr>
-          <th>8th Oct 2023</th>
+          <th><s>8th Oct 2023</s></th>
           <th>Working Note Submission</th>
         </tr>
         <tr>
-          <th>15th Oct 2023</th>
+          <th>25th Oct 2023</th>
           <th>Final Version of Working Note</th>
         </tr>
         </table>
@@ -230,7 +230,7 @@ sections:
       <ul>
         <li>Inclusion of names of teams and tracks in titles of working notes is highly discouraged. For instance titles like "Avengers@CIRAL: Dense Passage Retrieval" should rather be written as "Dense Passage Retrieval"</li>
         <li>Author names should not have any prefixes like Dr., Prof., etc</li>
-        <li>Copyright information within the footer of the first page should be "Forum for Information Retrieval Evaluation, December 9-13, 2022, India" and should not be changed to include track names or any other details/modifications.</li>
+        <li>Copyright information within the footer of the first page should be "Forum for Information Retrieval Evaluation, December 15-18, 2023, India" and should not be changed to include track names or any other details/modifications.</li>
       </ul>
 
 
