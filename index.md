@@ -163,7 +163,7 @@ sections:
           <th>Working Note Submission</th>
         </tr>
         <tr>
-          <th>25th Oct 2023</th>
+          <th><s>25th Oct 2023</s></th>
           <th>Final Version of Working Note</th>
         </tr>
         </table>
