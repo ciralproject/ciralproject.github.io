@@ -9,12 +9,12 @@ header:
   url: /#participation
 - title: DATASETS
   url: /#datasets
+- title: DOCUMENTATION
+  url: https://github.com/ciralproject/ciral
 - title: BULLETINS
   url: /#timeline
 - title: RESULTS
   url: /#results
-- title: AUTHOR GUIDES
-  url: /#author-guides
 - title: ORGANIZERS
   url: /#organizers
 # - title: Correspondence
