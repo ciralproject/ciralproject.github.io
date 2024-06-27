@@ -14,7 +14,7 @@ header:
 - title: BULLETINS
   url: /#timeline
 - title: RESULTS
-  url: /#results
+  url: https://ciralproject.github.io/leaderboard
 - title: ORGANIZERS
   url: /#organizers
 # - title: Correspondence
